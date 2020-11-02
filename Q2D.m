@@ -23,4 +23,5 @@ plot(t,output2);
 
 hold off
 
+legend("k= 25", "k = 30")
 title('Plot','FontSize',18);

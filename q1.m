@@ -1,5 +1,5 @@
-k = 10;
-m = 5;
+k = 100;
+m = 0.05;
 
 num=[0 k k*(2+m) 2*m*k]; 
 den=[1 1*k (2*k+m*k-1) 2*m*k];
@@ -16,4 +16,6 @@ peak = findpeaks(y)
 xlabel('System Response','FontSize',18);
 ylabel('Output y(t)','FontSize',18); 
 title('One B','FontSize',18);
+
+
 
